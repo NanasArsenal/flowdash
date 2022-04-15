@@ -19,7 +19,7 @@ const Sidebar = () => {
         <div className="top">
             <span className='logo'>Flow Admin</span>
         </div>
-        <hr />
+ 
         <div className="center">
             <ul>
               <p className="title">MAIN</p>

@@ -8,19 +8,16 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
+        margin-bottom: 0;
+        border: 0.5px solid rgb(231, 228, 228);
 
 
         .logo{
             color: #6434ff;
             font-weight: bold;
-            font-size: 25px;
+            font-size: 20px;
         }
 
-        hr{
-            height: 0%;
-            border: 0.5px solid rgb(241, 241, 241);;
-        }
     
     }
 
@@ -29,10 +26,10 @@
     //     font-weight: bold;
     //     font-size: 25px;
     // }
-    hr{
-        height: 0%;
-        border: 0.5px solid rgb(241, 241, 241);;
-    }
+    // hr{
+    //     height: 0%;
+    //     border: 0.5px solid rgb(241, 241, 241);;
+    // }
 
     .center{
         padding-left: 20px;
