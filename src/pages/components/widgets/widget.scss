@@ -2,4 +2,61 @@
     display: flex;
     flex: 1;
     justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    height: 100px;
+    -webkit-box-shadow: 5px 5px 12px -5px rgba(0,0,0,0.85); 
+    box-shadow: 5px 5px 8px -5px rgba(0,0,0,0.85);
+
+
+
+
+
+        .left{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+                .title{
+                    font-weight: bold;
+                    font-size: 14px;
+                    color: gray;
+                }
+                .counter{
+                    font-size: 28px;
+                    font-weight: 300;
+                }
+                .link{
+                    font-size: 12px;
+                    border-bottom: 1px solid gray;
+                    width: max-content;
+                }
+        }
+
+        .right{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+
+                .percentage{
+                    display: flex;
+                    align-items: center;
+
+                    &.positive{
+                        color: green;
+                    }
+
+                    &.negative{
+                        color: red;
+                    }
+                }
+                .icon{
+                    background-color: rgba(128, 0, 128, 0.541);
+                    align-self: flex-end;
+                    border-radius: 5px;
+                    padding: 5px;
+                    font-size: 18px;
+                }
+        }
 }
